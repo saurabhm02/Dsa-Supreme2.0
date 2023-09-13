@@ -6,6 +6,8 @@ Pattern
 345
 4567
 */
+// here the ans 
+
 
 #include<iostream>
 using namespace std;
