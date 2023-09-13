@@ -8,6 +8,9 @@ N = 4
  *****
 *******
 */
+
+// here the ans 
+
 #include<iostream>
 using namespace std;
 int main(){
