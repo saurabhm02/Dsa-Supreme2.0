@@ -9,6 +9,7 @@ N = 5
  ***
   *
 */
+// here the ans 
 
 #include<iostream>
 using namespace std;
