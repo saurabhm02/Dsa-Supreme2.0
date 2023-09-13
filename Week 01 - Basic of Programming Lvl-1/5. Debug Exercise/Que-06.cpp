@@ -9,6 +9,9 @@ CDE
 BCDE
 ABCDE
 */
+
+// here the ans 
+
 #include<iostream>
 using namespace std;
 
