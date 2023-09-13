@@ -8,6 +8,8 @@ N = 4
 321
 4321
 */
+// here the ans 
+
 #include<iostream>
 using namespace std;
 
