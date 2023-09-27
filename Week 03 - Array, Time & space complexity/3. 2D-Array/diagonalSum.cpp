@@ -9,7 +9,7 @@ int diagonalSum(vector<vector<int>> &arr, int rows, int column){
 	for(int i=0;i<rows; i++){
 		sum = sum + arr[i][i];
 	}
-	return sum;
+	
 }
 int main()
 {
