@@ -10,11 +10,11 @@ int firstOccurence(vector<int>arr, int size, int target){
 	int mid = start + (end - start) / 2;
 	int ans = -1;	 
     while(start <= end){
-    	
+    	//  0 1 1 2 2 3 4
 
     	if(arr[mid] == target){
 			ans = mid;
-			end = mid -1;
+			end = mid - 1;
 		} 
 		else if(target < arr[mid]){
 			end = mid - 1;
