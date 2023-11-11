@@ -51,6 +51,24 @@ double mySqrt2(int x) {
     return ans;
 }
 
+// second method to get precise number
+
+double precisionSqrt(int n){
+    int precision = 5;
+    double sqrt = mySqrt(n);
+    double step = 0.1;
+
+    for(int i=0; i<precision; i++){
+        double j = sqrt;
+        while(j * j <= n){
+            sqrt = j;
+            j += step;
+        }
+        step /= 2;
+    }
+    return sqrt;
+}
+
 int main()
 {
 	int x;
@@ -59,7 +77,7 @@ int main()
     if (x < 0) {
         cout << "Please enter a non-negative integer." << endl;
     } else {
-        double res = mySqrt2(x);
+        double res = precisionSqrt(x);
         cout<<res<<endl;
     }
 
