@@ -91,3 +91,4 @@ string strnn ="aur bhai kya haal hai";
 cout<<strnn.substr(4, 4)<<endl;
 }
 
+
