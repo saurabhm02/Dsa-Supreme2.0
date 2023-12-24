@@ -70,87 +70,87 @@ int main()
     // ----> 7 7
 
    // Que 3.
-    // int* ptr = 0;
-    // int a = 10;
-    // *ptr = a;
-    // cout<< *ptr<<endl;
+   //  int* ptr = 0;
+   //  int a = 10;
+   //  *ptr = a;
+   //  cout<< *ptr<<endl;
     // ----> Error 
 
    // Que 4.
-    // Which gives the memory address of variable 'b' pointed by pointer 'a' i.e
-    // int b = 10;
-    // int *a = &b;
+   //  Which gives the memory address of variable 'b' pointed by pointer 'a' i.e
+   //  int b = 10;
+   //  int *a = &b;
     // -----> a
 
    // Que 5.
-    // char ch = 'a';
-    // char* ptr = &ch;
-    // ch++;
-    // cout<< *ptr <<endl;
+   //  char ch = 'a';
+   //  char* ptr = &ch;
+   //  ch++;
+   //  cout<< *ptr <<endl;
     // ----> b
 
-   // Que 5.
-    // int a = 7;
-    // int* c = &a;
-    // c = c + 1;
-    // cout<<a<<" "<< *c<<endl;
+   // Que 6.
+   //  int a = 7;
+   //  int* c = &a;
+   //  c = c + 1;
+   //  cout<<a<<" "<< *c<<endl;
     // ----> 7 gv
 
-   // Que 6.
-    // int a = 7;
-    // int *c = &a;
-    // c = c + 3;
-    // cout<<c<<endl;
+   // Que 7.
+   //  int a = 7;
+   //  int *c = &a;
+   //  c = c + 3;
+   //  cout<<c<<endl;
     // ----> if &a = 400  then c = 412
 
-   // Que 7.
-    // double a = 10.54;
-    // double *d = &a;
-    // d = d + 1;
-    // cout<<d<<endl;
+   // Que 8.
+   //  double a = 10.54;
+   //  double *d = &a;
+   //  d = d + 1;
+   //  cout<<d<<endl;
     // ----> if &a = 200 then d = 208
 
-   // Que 8
-    // int a[5];
-    // int *c;
-    // cout<<sizeof(a)<<" "<<sizeof(c)<<endl;
+   // Que 9.
+   //  int a[5];
+   //  int *c;
+   //  cout<<sizeof(a)<<" "<<sizeof(c)<<endl;
     // ----> 20 4
 
-   // Que 9.
-    // int a[] = {1, 2, 3, 4};
-    // cout<<*(a)<<" "<<*(a + 1)<<endl;
+   // Que 10.
+   //  int a[] = {1, 2, 3, 4};
+   //  cout<<*(a)<<" "<<*(a + 1)<<endl;
     // ---> 1 2
 
-   // Que 10.
-    // int a[3] = {1, 2, 3};
-    // cout<<*(a + 2)<<endl;
+   // Que 11.
+   //  int a[3] = {1, 2, 3};
+   //  cout<<*(a + 2)<<endl;
     // ----> 3
 
-   // Que 11.
+   // Que 12.
     // int a[] = {1, 2, 3, 4};
     // int *p = a++;
     // cout<< *p<<endl;
     // ----> ERROR
 
-   // Que 12.
+   // Que 13.
     // int arr[] = {4, 5, 6, 7};
     // int *p = (arr + 1);
     // cout<< *arr + 9<<endl;
     // ----> 13
 
-   // Que 13.
+   // Que 14.
     // char b[] = "xyz";
     // char *c = &b[0];
     // cout<<c<<endl;
     // ----> xyz
 
-   // Que 14.
+   // Que 15.
     // char s[] = "hello";
     // char *p = s;
     // cout<<s<<s[0]<<endl;
     // ----> h
 
-   // Que 15.
+   // Que 16.
     // char arr[20];
 	// int i;
 	// for(i = 0; i < 10; i++){
@@ -160,7 +160,7 @@ int main()
 	// cout << arr;
 	// ----> ABCDEFGHIJ
 
-   // Que 16.
+   // Que 17.
     // char *ptr;
     // char str[] = "abcdefg";
     // ptr = str;
@@ -168,7 +168,7 @@ int main()
     // cout<<ptr;
     // ----> fg
 
-   // Que 17.
+   // Que 18.
     // int numbers[5];
     // int *p;
     // p = numbers;
@@ -187,7 +187,7 @@ int main()
 
     // ----> 10 30 20 40 50 
 
-   // Que 18.
+   // Que 19.
    //  char st[] = "ABCDE";
    //  for (int i = 0; st[i] != '\0' ; i++)
    //  {
@@ -200,7 +200,7 @@ int main()
 			// D 68 D D
 			// E 69 E E
 
-   // Que 19.
+   // Que 20.
     // float arr[5] = {12.5, 10.0, 13.5, 90.5, 0.5};
     // float *ptr1 = &arr[0];
     // float *ptr2 = ptr1 + 3;
@@ -209,31 +209,31 @@ int main()
     // cout<<(*ptr2 - *ptr1)<<endl;
     // ----> 90.5 3 78 
 
-   // Que 20.
+   // Que 21.
     // int a = 10;
     // changeSign(&a);
     // cout<<a<<endl;
     // ----> -10
 
-   // Que 21.
+   // Que 22.
     // int a[] = {1, 2, 3, 4, 5};
     // fun(a + 1);
     // cout<<a[0];
     // ----> 2 1
 
-   // Que 22.
+   // Que 23.
     // int a = 10;
     // square(&a);
     // cout<<a<<endl;
     // ----> 10
 
-   // Que 23.
+   // Que 24.
     // int x = 5;
     // P(&x);
     // cout<<x<<endl;
     // ----> 14 7 6
 
-   // Que 24.
+   // Que 25.
     // int a = 10;
     // int *p = &a;
     // int **q = &p;
@@ -243,7 +243,7 @@ int main()
     // cout<<a<<" "<<b<<endl;
     // ----> 10 21
 
-   // Que 25.
+   // Que 26.
     // int c, *b, **a;
     // c = 4;
     // b = &c;
@@ -251,7 +251,7 @@ int main()
     // cout<<f(c, b, a);
     // ----> 19
 
-   // Que 26.
+   // Que 27.
     // int ***r, **q, *p, i=8;
     // p = &i;
     // (*p)++;
@@ -261,7 +261,7 @@ int main()
     // cout<<*p<<" "<<**q<<" "<<***r;
     // ----> 10 10 10
 
-   // Que 27.
+   // Que 28.
     // int num = 10;
     // int *ptr = &num;
     // increment(&ptr);
