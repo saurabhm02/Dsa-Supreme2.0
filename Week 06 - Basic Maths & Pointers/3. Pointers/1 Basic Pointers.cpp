@@ -10,10 +10,10 @@ int main()
     freopen("output.txt", "w", stdout);
 #endif 
 
-    int a;
-    cin>>a;
+    // int a;
+    // cin>>a;
 
-    int* ptr = &a;
+    // int* ptr = &a;
     // cout<<"value of a : "<<a<<endl;
     // cout<<"value of &a : "<<&a<<endl;
     // cout<<"value of ptr : "<<ptr<<endl;
